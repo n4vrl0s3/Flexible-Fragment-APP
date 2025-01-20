@@ -10,7 +10,25 @@ To demonstrate the use of Fragments to create a flexible and modular user interf
 
 <hr><br>
 
-## Steps
+## Features
+
+- Modular user interface with Fragments
+- Dynamic content loading
+- Easy navigation between different sections
+- Responsive design for various screen sizes
+
+<hr><br>
+
+## Technologies Used
+
+- Kotlin
+- Android Studio
+- Fragments
+- XML for UI design
+
+<hr><br>
+
+## Steps to Run
 
 1. Clone this Repository
 
@@ -18,8 +36,15 @@ To demonstrate the use of Fragments to create a flexible and modular user interf
 git clone https://github.com/guanshiyin28/Flexible-Fragment-APP.git
 ```
 
-2. Open the project
-3. Run the project
+2. Open the project in Android Studio
+3. Build the project
+4. Run the project on an emulator or a physical device
+
+<hr><br>
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 <hr><br>
 
