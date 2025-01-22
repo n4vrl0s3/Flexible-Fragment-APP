@@ -10,6 +10,42 @@ To demonstrate the use of Fragments to create a flexible and modular user interf
 
 <hr><br>
 
+## Demo
+
+Below is a demonstration of the main functionality of the application:
+
+```kotlin
+// MainActivity.kt
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        // Load the initial fragment
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, MainFragment())
+                .commit()
+        }
+    }
+}
+```
+
+```kotlin
+// MainFragment.kt
+class MainFragment : Fragment() {
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_main, container, false)
+    }
+}
+```
+
+<hr><br>
+
 ## Features
 
 - Modular user interface with Fragments
@@ -28,17 +64,23 @@ To demonstrate the use of Fragments to create a flexible and modular user interf
 
 <hr><br>
 
-## Steps to Run
+## Project Setup
 
-1. Clone this Repository
+1. **Ensure you have Android Studio installed on your machine.**
+2. **Clone this Repository**
 
-```
+```bash
 git clone https://github.com/guanshiyin28/Flexible-Fragment-APP.git
 ```
 
-2. Open the project in Android Studio
-3. Build the project
-4. Run the project on an emulator or a physical device
+3. **Open the project in Android Studio**
+
+<hr><br>
+
+## Steps to Run
+
+1. **Build the project in Android Studio**
+2. **Run the project on an emulator or a physical device**
 
 <hr><br>
 
@@ -50,6 +92,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 <div align="center">
   <a href="https://www.instagram.com/guanshiyin_/">
-     <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=20:72aae3,100:cadbf5&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:FF0000,20:F0F0F0&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
   </a>
 </div>
