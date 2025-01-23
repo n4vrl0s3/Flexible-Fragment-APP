@@ -46,6 +46,12 @@ class MainFragment : Fragment() {
 
 <hr><br>
 
+## Releases
+
+You can find the latest releases [here](https://github.com/guanshiyin28/Flexible-Fragment-APP/releases).
+
+<hr><br>
+
 ## Features
 
 - Modular user interface with Fragments
