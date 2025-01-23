@@ -11,12 +11,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_bold"
         android:text="@string/this_category" />
 
     <Button
         android:id="@+id/btn_detail_category"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/montserrat_bold"
         android:text="@string/category_lifestyle"
         />
 

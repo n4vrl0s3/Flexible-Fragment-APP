@@ -10,15 +10,19 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_margin="16dp"
+        android:fontFamily="@font/montserrat_bold"
         android:text="@string/hello_fragment_home" />
 
     <Button
         android:id="@+id/btn_category"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/montserrat_bold"
         android:text="@string/to_category"
         />
 

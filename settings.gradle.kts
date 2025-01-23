@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "My Flexible Fragment"
+rootProject.name = "Flexible Fragment"
 include(":app")
  
