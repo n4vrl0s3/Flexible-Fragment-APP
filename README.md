@@ -10,7 +10,7 @@ To demonstrate the use of Fragments to create a flexible and modular user interf
 
 <hr><br>
 
-## Demo
+## Demonstration
 
 Below is a demonstration of the main functionality of the application:
 
