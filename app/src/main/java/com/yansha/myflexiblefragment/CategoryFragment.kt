@@ -1,4 +1,4 @@
-package com.guan.myflexiblefragment
+package com.yansha.myflexiblefragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -29,7 +29,7 @@ class CategoryFragment : Fragment(),View.OnClickListener {
             val detailCategoryFragment = DetailCategoryFragment()
 
             val bundle = Bundle()
-            bundle.putString(DetailCategoryFragment.EXTRA_NAME,"Lifestyle-Guan")
+            bundle.putString(DetailCategoryFragment.EXTRA_NAME,"Lifestyle-Yansha")
             detailCategoryFragment.arguments = bundle
 
             val description = "Kategori ini berisi Produk Lifestyle"

@@ -1,4 +1,4 @@
-package com.guan.myflexiblefragment
+package com.yansha.myflexiblefragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

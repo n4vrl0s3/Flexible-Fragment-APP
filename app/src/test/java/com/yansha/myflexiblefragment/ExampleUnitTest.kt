@@ -1,4 +1,4 @@
-package com.guan.myflexiblefragment
+package com.yansha.myflexiblefragment
 
 import org.junit.Test
 

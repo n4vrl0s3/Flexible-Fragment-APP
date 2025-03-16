@@ -1,7 +1,6 @@
-package com.guan.myflexiblefragment
+package com.yansha.myflexiblefragment
 
 import android.os.Bundle
-import android.provider.ContactsContract.Profile
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
